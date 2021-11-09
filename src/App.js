@@ -3,7 +3,7 @@ import rushingStatList from "./rushing.json";
 
 import { Container, Typography } from "@mui/material";
 
-import RushingTable from "./RushingTable";
+import RushingTable from "./components/RushingTable";
 
 function App() {
   const [players] = useState(() =>
@@ -45,8 +45,6 @@ function App() {
         >
           NFL Rushing Code Challenge
         </Typography>
-
-        
 
         <RushingTable
           rows={players}
