@@ -61,4 +61,20 @@ If you have any questions regarding requirements, do not hesitate to email your 
 
 ## Installation and running this solution
 
-... TODO
+This project is created using **create-react-app**. Please make sure you can run React on your environment.
+
+1. Install this project by running the following commands.
+
+    ```bash
+    git clone https://github.com/fractal-n/nfl-rushing.git
+    cd nfl-rushing
+    npm install
+    ```
+
+2. Use your favorite code editor to open this project. In case **VSCode** is your choice, the project is already configured for its debugger using Edge browser.
+
+3. Run the app locally.
+
+    ```bash
+    npm start
+    ```
